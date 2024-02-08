@@ -1,16 +1,20 @@
 <?php
 
-echo "Wat is jouw naam (Voor en Achter)?";
+// Opvragen voor- en achternaam
+echo "Wat is jouw naam (Voor en Achter)?" . PHP_EOL;
 $naam = readline();
 
-echo "Wat is jouw studentennummer?";
+// Opvragen studentennummer
+echo "Wat is jouw studentennummer?" . PHP_EOL;
 $nummer = readline();
 
-echo "Wat is jouw klascode";
+// Opvragen klascode
+echo "Wat is jouw klascode" . PHP_EOL;
 $klas = readline();
 
-echo "$naam";
-echo "$nummer";
-echo "$klas";
+// Alles een voor een weergeven
+echo "$naam" . PHP_EOL;
+echo "$nummer" . PHP_EOL;
+echo "$klas" . PHP_EOL;
 
 ?>
